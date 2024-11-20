@@ -1,0 +1,13 @@
+type: default
+memory: 64MB
+subtasks:
+  - score: 100
+    if: []
+    id: 1
+    type: min
+    cases:
+      - input: 1.in
+        output: 1.out
+time_limit_rate:
+  py.py3: 3
+  java: 3
